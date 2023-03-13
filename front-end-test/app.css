@@ -1,34 +1,116 @@
-
-body{
-    font-family: Roboto Condensed;
-    background-color: #030372;
-    color:#fff; 
+body {
+    font-family: 'Roboto Condensed', sans-serif;
+    color: #fff;
 }
 
-a{
+a {
     font-size: 15px;
-    color: #fff;   
+    color: #fff;
 }
 
-.logo{
+.logo {
     font-size: 25px;
+    text-transform: uppercase;
 }
 
-span{
-color: #e8c91e;
+span {
+    color: #e8c91e;
 }
-.header_bar{
+
+nav {
     display: flex;
+    justify-content: space-between;
+    align-items: center;
+    background-color: #030372;
+    padding: 10px;
+
 }
-.container{
+
+.logo_and_navbar {
     display: flex;
-    flex-direction: column;
+    align-items: center;
 }
 
-.bar_search_and_phone_number{
-display: flex;
-align-content: end;
+
+.navbar ul {
+    display: flex;
+    justify-content: space-around;
+    list-style: none;
 }
 
-la couleur jaune des bords arrondis
-color: #e8c91e;
+.navbar ul li a {
+    text-decoration: none;
+}
+
+.bar_search_and_phone_number {
+    display: inline;
+    align-items: end;
+}
+
+.bar_search {
+    border: 1px solid #fff;
+    background: #fff;
+    padding: 5px 0px;
+    border-radius: 5px;
+}
+
+.bar_search input {
+    border: none;
+    padding: 0px 10px;
+}
+
+.bar_search input:focus {
+    outline: none;
+}
+
+.image_fond {
+    background-image: url("assets/H.jpg");
+    background-position: center;
+    background-size: cover;
+    height: 400px;
+}
+
+.element_image {
+    
+    text-align: center;
+    padding-top: 10%;
+    color: #030372;
+}
+
+.element_image form {
+    width: 100%;
+    align-content: center;
+    background-color: #e8c91e;
+    display: flex;
+    border-bottom-left-radius: 10%;
+    border-top-left-radius: 10%;
+    border-end-start-radius: 50px;
+    border-end-end-radius: 50px;
+    margin-top: 10px;
+}
+
+.element_image form #one {
+    width: 25%;
+    margin-left: 5%;
+    border: none;
+}
+
+.element_image form #two {
+    width: 25%;
+    border: none;
+}
+
+.element_image form #tree {
+    width: 25%;
+    border: none;
+}
+
+.element_image form #btn {
+    width: 25%;
+    margin-left: 5%;
+    border: none;
+    background-color: #e8c91e;
+    text-align: center;
+    border-end-end-radius: 50px;
+    padding: 10 px 0px;
+}
