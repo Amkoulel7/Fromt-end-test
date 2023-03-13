@@ -26,16 +26,18 @@ nav {
 
 }
 
-.logo_and_navbar {
+.logo_and_navbar{
     display: flex;
     align-items: center;
 }
 
-
 .navbar ul {
     display: flex;
-    justify-content: space-around;
     list-style: none;
+}
+
+.navbar ul li {
+    padding: 0 10px;
 }
 
 .navbar ul li a {
@@ -71,9 +73,9 @@ nav {
 }
 
 .element_image {
-    
+
     text-align: center;
-    padding-top: 10%;
+    padding: 10% 20%;
     color: #030372;
 }
 
@@ -107,10 +109,9 @@ nav {
 
 .element_image form #btn {
     width: 25%;
-    margin-left: 5%;
     border: none;
     background-color: #e8c91e;
     text-align: center;
     border-end-end-radius: 50px;
-    padding: 10 px 0px;
+    
 }
