@@ -8,27 +8,32 @@
   <title>Travel Agency</title>
 
   <link rel="stylesheet" href="app.css">
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Roboto+Condensed:wght@400;700&display=swap" rel="stylesheet">
 </head>
 
 <body>
-  <div class="header_bar">
-    <div class="logo">Travel Agency</div>
-    <div class="container">
-      <ul>
-        <li>
-          <a href="">Home</a>
-        </li>
-        <li>
-          <a href="">Link</a>
-        </li>
-        <li>
-          <a href="">Dropdown</a>
-        </li>
-        <li>
-          <a href="">Disableb</a>
-        </li>
-      </ul>
-  </div>
+  <nav>
+    <div class="logo_and_navbar">
+      <div class="logo">Travel Agency</div>
+      <div class="navbar">
+        <ul>
+          <li>
+            <a href="">Home</a>
+          </li>
+          <li>
+            <a href="">Link</a>
+          </li>
+          <li>
+            <a href="">Dropdown</a>
+          </li>
+          <li>
+            <a href="">Disabled</a>
+          </li>
+        </ul>
+      </div>
+    </div>
     <div class="bar_search_and_phone_number">
       <div class=" bar_search">
         <input type="search" name="" id="" placeholder="search" />
@@ -38,11 +43,38 @@
         Nous contacter <span> (+223)78 34 32 92</span>
       </div>
     </div>
-  </div>
+  </nav>
 
-  <div>
-    <p><img src="assets/H.jpg" alt="Camping au bord de la plage"></p>
-</div>
+
+  <div class="image_fond">
+    <div class="container">
+      <div class="element_image">
+        <h3>Laissez nous vous montrer</h3>
+        <h2>Les destinations de reve</h2>
+        <form action="">
+          <select name="" id="one">
+            <option value="Afrique">Afrique</option>
+            <option value="Asie">Asie</option>
+            <option value="Europe">Europe</option>
+            <option value="Amerique">Amerique</option>
+          </select>
+          <select name="" id="two">
+            <option value="Tout les pays">Tout les pays</option>
+            <option value="Mali">Mali</option>
+            <option value="Senegal">Senegal</option>
+            <option value="Suisse">Suisse</option>
+          </select>
+          <select name="" id="tree">
+            <option value="Prix en (cfa)">Prix en (cfa)</option>
+            <option value="100000">100000</option>
+            <option value="150000">150000</option>
+            <option value="200000">200000</option>
+          </select>
+          <input type="button" id="btn" value="Trouve ta destinée">
+        </form>
+      </div>
+    </div>
+  </div>
 
 </body>
 
