@@ -1,0 +1,34 @@
+
+body{
+    font-family: Roboto Condensed;
+    background-color: #030372;
+    color:#fff; 
+}
+
+a{
+    font-size: 15px;
+    color: #fff;   
+}
+
+.logo{
+    font-size: 25px;
+}
+
+span{
+color: #e8c91e;
+}
+.header_bar{
+    display: flex;
+}
+.container{
+    display: flex;
+    flex-direction: column;
+}
+
+.bar_search_and_phone_number{
+display: flex;
+align-content: end;
+}
+
+la couleur jaune des bords arrondis
+color: #e8c91e;
